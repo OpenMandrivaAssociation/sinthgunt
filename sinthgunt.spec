@@ -29,15 +29,16 @@ rm -rf %{buildroot}
 python setup.py install --skip-build --root $RPM_BUILD_ROOT
 python setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT
 
+rm -f %buidlroot%_datadir/sinthgunt/
+
 %clean
 rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
+%doc README.txt
 %{_bindir}/sinthgunt
 %{python_sitelib}/*
 %{_datadir}/%{name}
-%exclude %{_datadir}/%{name}/*.txt
 %{_datadir}/applications/sinthgunt.desktop
 %{_datadir}/pixmaps/sinthgunt.png
-%doc README.txt
