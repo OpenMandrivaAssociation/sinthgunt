@@ -37,7 +37,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc README.txt
-%{_bindir}/sinthgunt
+%{_bindir}/*sinthgunt*
 %{python_sitelib}/*
 %{_datadir}/%{name}
 %{_datadir}/applications/sinthgunt.desktop
