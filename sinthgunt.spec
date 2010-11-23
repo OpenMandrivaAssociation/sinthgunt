@@ -1,6 +1,6 @@
 Summary:	Easy to use gui for ffmpeg
 Name:		sinthgunt
-Version:	2.0.2
+Version:	2.0.3
 Release:	%mkrel 1
 Source0:	http://sinthgunt.googlecode.com/files/%{name}-%{version}.tar.gz
 Url:		http://code.google.com/p/sinthgunt/
