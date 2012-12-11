@@ -42,3 +42,20 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}
 %{_datadir}/applications/sinthgunt.desktop
 %{_datadir}/pixmaps/sinthgunt.png
+
+
+%changelog
+* Tue Nov 23 2010 Buchan Milne <bgmilne@mandriva.org> 2.0.3-1mdv2011.0
++ Revision: 599960
+- update to new version 2.0.3
+- Update files list
+
+* Mon Nov 22 2010 Funda Wang <fwang@mandriva.org> 2.0.2-1mdv2011.0
++ Revision: 599662
+- correct using exclude
+
+* Thu Apr 08 2010 Buchan Milne <bgmilne@mandriva.org> 2.0.2-1mdv2010.1
++ Revision: 533096
+- import sinthgunt
+
+
