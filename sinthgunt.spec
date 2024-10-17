@@ -3,7 +3,7 @@ Name:		sinthgunt
 Version:	2.0.3
 Release:	2
 Source0:	http://sinthgunt.googlecode.com/files/%{name}-%{version}.tar.gz
-Url:		http://code.google.com/p/sinthgunt/
+Url:		https://code.google.com/p/sinthgunt/
 License:	GPLv3
 Group:		Video
 BuildRoot:	%{_tmppath}/%{name}-root
